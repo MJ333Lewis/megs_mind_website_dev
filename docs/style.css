@@ -6,6 +6,21 @@
     position: relative;
 }
 
+
+.bgimage_contact {
+    height:100vh;
+    background:url(images/bgimage_contact.jpg);
+    background-size:cover;
+    position: relative;
+}
+
+.bgimage_pub {
+    height:100vh;
+    background:url(images/bgimage_contact.jpg);
+    background-size:cover;
+    position: relative;
+}
+
 /* text css above hero image */
 .hero_title {
     font-size:4.5rem;
@@ -46,6 +61,36 @@
     color: #f8f9fa !important; /* Slightly lighter shade for hover effect */
 }
 
+
+
+/* spacing on all sections */
+#header-image {
+    margin-bottom: 20px; /* Adjust the value as needed */
+}
+
+#contact {
+    padding-bottom: 4rem;
+}
+#about, #contact , #publications {
+    margin-top: 20px; /* Adjust the value as needed */
+}
+
+/* content box things */
+.content-box {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    height: 200px; /* Adjust the height as needed */
+}
+
+.content-box p {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.5;
+    margin: 0;
+}
+
 /* social media icons styling */
 .social-icons {
     font-size: 36px;
@@ -61,30 +106,6 @@
 #footer {
     background-color: #808080;
     text-align: center;
-}
-
-/* spacing on all sections */
-#about, #publications, #contact {
-    margin-top: 4rem;
-    padding-top: 4rem;
-}
-#contact {
-    padding-bottom: 4rem;
-}
-
-.content-box {
-    background-color: #f9f9f9;
-    padding: 10px;
-    border-radius: 5px;
-    text-align: center;
-    height: 200px; /* Adjust the height as needed */
-}
-
-.content-box p {
-    font-family: Arial, sans-serif;
-    color: #333;
-    line-height: 1.5;
-    margin: 0;
 }
 
 

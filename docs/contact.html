@@ -26,7 +26,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto"> <!-- ms-auto aligns items to the right -->
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="#home">Home</a>
+                        <a class="nav-link text-light" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-light" href="#about">About</a>
@@ -42,32 +42,41 @@
         </div>
     </nav>
 
-    <!-- Main banner section -->
-    <section class="bgimage" id="home">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
-                    <h2 class="hero_title">Hi there - Megan here!</h2>
+        <!-- Main banner section -->
+        <section class="bgimage_contact" id="contact">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                        <h2 class="hero_title">Say hello!</h2>
+                    </div>
                 </div>
+            </div>
+        </section>
+    <!-- Contact section -->
+    <section id="contact">
+        <div class="container mt-3">
+            <div class="row mt-4">
+                <!-- Contact form -->
+                <form class="w-100">
+                    <div class="mb-3">
+                        <input type="text" class="form-control form-control-lg" placeholder="Name">
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" placeholder="Email">
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Subject">
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control" rows="5" placeholder="Message details"></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-info">Contact Me</button>
+                    </div>
+                </form>
             </div>
         </div>
     </section>
-
-    <!-- About section -->
-    <section id="about">
-        <div class="container">
-            <!-- About text content -->
-            <div class="content-box">
-                <h4>Country girl. Entomologist. Plant girl.</h4>
-                <div class="mt-3">
-                    <p>Postdoctoral researcher working with 'Farm Data' at Harper Adams University.</p>
-                    <p>I have a passion for trying to find solutions for agriculture and wildlife to work side by side.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
 
     <!-- Footer section -->
     <footer id="footer" class="bg-dark text-light py-3">

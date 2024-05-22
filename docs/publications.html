@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Portfolio Website-Megan</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Linking custom CSS file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Navigation bar at the top of the website -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+        <div class="container">
+            <!-- Brand name -->
+            <a class="navbar-brand text-light" href="#home">Megan's Mind</a>
+            <!-- Toggler/collapsible button for small screens -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>  
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto"> <!-- ms-auto aligns items to the right -->
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="publications.html">Publications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="contact.html">Say Hello!</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+        <!-- Main banner section -->
+        <section class="bgimage_pubs" id="publications">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                        <h2 class="hero_title">Publications!</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <section id="publications">
+        <div class="container mt-3">
+            <h1 class="text-center">Publications</h1>
+            <div class="row">
+                <!-- First publication card -->
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/glitter_pub.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">A simple technique to assess resource use in dung beetle breeding experiments</h4>
+                            <p class="card-text">You can't polish dung but you can roll it in glitter!</p>
+                            <p class="card-text">Lewis, M. J., Berson, J.D., Didham, R. K. and Evans, T. A. 2023. Ecological Entomology 48 (6) Pp. 627 - 635</p>
+                            <div class="text-center">
+                                <a href="https://doi.org/10.1111/een.13277" class="btn btn-info" title="Visit external website">Read publication</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Second publication card -->
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/dung_rem_image.JPG" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Dung removal increases under higher dung beetle functional diversity regardless of grazing intensification</h4>
+                            <p class="card-text">Noriega, J.A., Hortal, J., deCastro-Arrazola, I. et al. (2023). Nature Communications, 14, 8070.</p>
+                            <div class="text-center">
+                                <a href="https://doi.org/10.1038/s41467-023-43760-8" class="btn btn-info" title="Visit external website">Read publication</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Third publication card -->
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/beetle_data.JPG" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Deliberately introduced dung beetles in Australia: 12 years of occurrence and abundance records from 2001 to 2022</h4>
+                            <p class="card-text">Berson, J. D., Edwards, P. B., Ridsdill-Smith, T. J., Christopher K. Taylor, C. K. et al. (In press). Ecology.</p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-secondary" title="Visit external website">Watch this space</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Fourth publication card -->
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <!-- Card content -->
+                    </div>
+                </div>
+                <!-- Fifth publication card -->
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <!-- Card content -->
+                    </div>
+                </div>
+                <!-- Sixth publication card -->
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <!-- Card content -->
+                    </div>
+                </div>
+            </div>
+            <!-- Add more rows and cards as needed -->
+        </div>
+    </section>
+    
+
+
+    <!-- Footer section -->
+    <footer id="footer" class="bg-dark text-light py-3">
+        <div class="container">
+            <!-- Social media icons -->
+            <div class="text-center">
+                <a href="https://www.linkedin.com/" target="_blank" class="text-light me-2"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/megan333jane" target="_blank" class="text-light"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Load custom JavaScript after loading all HTML content -->
+    <script src="script/script.js"></script>
+    <!-- Bootstrap JS Bundle (including Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
