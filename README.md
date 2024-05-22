@@ -1,1 +1,2 @@
-My first attempt at creating a personal website using hmtl and css.
+My first attempt at creating a personal website using HTML and css.
+Some assistance from Chat GTP. 
