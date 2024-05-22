@@ -30,8 +30,20 @@
 }
 
 /* display background color black on navbar scroll */
-.navbarScroll.navbarDark {
+.navbarScroll {
     background-color: black;
+}
+
+.navbarDark {
+    background-color: #343a40; /* Dark background color */
+}
+
+.nav-link {
+    color: #ffffff !important; /* White text color for links */
+}
+
+.nav-link:hover {
+    color: #f8f9fa !important; /* Slightly lighter shade for hover effect */
 }
 
 /* social media icons styling */
@@ -40,7 +52,7 @@
     cursor: pointer;
 }
 .fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover, .fa-github:hover{
-    color: #008000;
+    color: #4ddab9;
 }
 .fab {
     color: #000000;
@@ -59,3 +71,20 @@
 #contact {
     padding-bottom: 4rem;
 }
+
+.content-box {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    height: 200px; /* Adjust the height as needed */
+}
+
+.content-box p {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.5;
+    margin: 0;
+}
+
+
